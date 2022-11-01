@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: 'Saira', sans-serif;
+}
+
+/******announcement******/
+.announcement{
+	background-color: #333;
+	padding: 10px 0px;
+}
+.announcement h1{
+	color: #d4be84;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+/******announcement******/
+
+/******header******/
+header{
+	background: url(../images/download.webp);
+	background-color: #000000c2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: multiply;
+}
+
+.top-header{
+    padding: 10px 0px;
+    border-bottom: 1px solid #ffffff57;
+}
+header .top-left{}
+header .top-left p{
+    margin: 0px!important;
+}
+header .top-left p a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header .top-right{}
+header .top-right ul{}
+header .top-right li{}
+header .top-right li a{
+    color: #fff;
+}header .top-right li a:hover{
+    color: #fff;
+}
+header .top-right li select{
+    background-color: transparent;
+    color: #fff;
+    border: 0px;
+}
+header .top-right li select option{
+    background-color: #000;
+    color: #fff;
+}
+.form-control:focus {
+    color: #fff;
+    background-color: transparent; 
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 
+}
+
+.navbar .nav-item .nav-link{
+	color: #fff !important;
+	font-size: 18;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+nav .navbar-brand{
+	filter: invert(1);
+
+}
+.cart-menu{
+	width: 40%;
+}
+.navbar .collapse{
+	width: 40%;
+}
+
+
+/******header******/
+
+
+
+
+/******banner******/
+.banner{
+	padding: 300px 0px;
+}
+.banner h1{
+    font-weight: 500;
+}
+.banner h2{
+    font-weight: 300;
+}
+.banner a{}
+
+
+
+/******banner******/

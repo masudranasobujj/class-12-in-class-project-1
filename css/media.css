@@ -1,0 +1,12 @@
+@media (max-width: 767px){
+	.cart-menu{
+	width: 40%;
+	}
+	nav .navbar-brand {
+    filter: invert(1);
+    width: 40%;
+	}
+	.navbar .collapse{
+	width: 20%;
+	}
+}
